@@ -1,0 +1,1 @@
+export const fetchTop20 = async () => { const res = await fetch("http://localhost:3000/top20"); return res.json(); };
